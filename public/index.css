@@ -1,0 +1,49 @@
+:root {
+  --dark-green: #075e54;
+  --light-green: #25d366;
+}
+
+::placeholder {
+  text-align: center; 
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  border: 3px solid var(--dark-green);
+  text-align: center;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  margin-left: 8px;
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  border: none;
+  border-radius: 8px;
+  width: 30%;
+}
+
+#code {
+  width: 100px;
+}
+input {
+  margin: 5px;
+  height: 25px;
+  border-radius: 8px;
+  border-color: var(--dark-green);
+  text-align: center;
+}
